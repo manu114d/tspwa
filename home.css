@@ -95,6 +95,49 @@ h1, h2, h3{
     background-color: #fcf3f2;
 }
 
+
+/* ########## hamburger ########### */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#togglers, label{
+    display: none;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.lists{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+@media (max-width : 650px) {
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        /* border: 2px solid red; */
+    }
+    label{
+        display: inline-flex;
+    }
+    #togglers:checked~.menu{
+        max-height: 100%;
+    }
+    .lists{
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem;
+    }
+}
 /* ########## heading ########## */
 .header{
     position: relative;
