@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;1,400&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;   /*10px*/
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+
+
+
+/* Background Image*/
+.section1{
+    padding: 0; 
+    margin: 0;
+    /* border: 2px solid black; */
+    min-height: 95vh;
+    background: linear-gradient(rgba(25,0,0,0.3),rgba(25,0,0,0.3)), url('./images/14537353880_2a9abb1275_b.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border: 5px solid black; */
+}
+
+
+/* NAVIGATION BAR */
+.section1 .navbar{
+    font-size: large;
+    width: 90%;
+    margin: auto;
+    padding-top: 10px;
+    /* padding: 4px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .navbar .navigation{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 .navbar .navigation a{
+    text-decoration: none;
+    color: #f5f3f3;
+    margin-right: 10px;
+}
+
+.section1 .navbar .navigation a.last{
+    margin: 0;
+}
+
+
+
+
+/* TITLE OF PAGE 1 */
+.heading h1{
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.385);
+    margin-top: 300px;
+    font-size:4em;
+    text-align: center;
+    color: #f5f3f3;
+}
