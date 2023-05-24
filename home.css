@@ -473,7 +473,7 @@ footer{
     }
 
     .tagline{
-        font-size: 8px;
+        font-size: 0;
     }
 
     .navbar .logo, .navbar .navitems{
